@@ -5,10 +5,10 @@ backend:
   name: github
   repo: sapientjournal-hub/sapient-website
   branch: main
-  base_url: https://sveltia-cms-auth.yo2368.workers.dev
+  base_url: https://sveltia-cms-auth.sapientjournal.workers.dev
 
-site_url: https://sapient-website.yo2368.workers.dev
-display_url: https://sapient-website.yo2368.workers.dev
+site_url: https://sapient-website.sapientjournal.workers.dev
+display_url: https://sapient-website.sapientjournal.workers.dev
 
 media_folder: public/images/uploads
 public_folder: /images/uploads
