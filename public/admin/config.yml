@@ -3,12 +3,12 @@
 
 backend:
   name: github
-  repo: YOUR-GITHUB-USERNAME/sapient-journal
+  repo: yvnvii/sapient-website
   branch: main
-  # base_url: https://your-auth-worker.workers.dev   # see README, step 7B
+  base_url: https://sveltia-cms-auth.yo2368.workers.dev
 
-site_url: https://www.sapientjournal.com
-display_url: https://www.sapientjournal.com
+site_url: https://sapient-website.yo2368.workers.dev
+display_url: https://sapient-website.yo2368.workers.dev
 
 media_folder: public/images/uploads
 public_folder: /images/uploads
