@@ -46,24 +46,6 @@
   ],
   "alumni": [
     {
-      "name": "Ana Reif",
-      "role": "Former Editor-in-Chief",
-      "school": "Columbia College '24",
-      "photo": "/images/board/ana-reif.jpg"
-    },
-    {
-      "name": "Megan Amaro",
-      "role": "Board Illustrator",
-      "school": "School of General Studies '25",
-      "photo": "/images/board/default-pfp.png"
-    },
-    {
-      "name": "Lily Kuhn",
-      "role": "Former Editor-in-Chief",
-      "school": "Barnard College '25",
-      "photo": "/images/board/lily-kuhn.jpg"
-    },
-    {
       "name": "Kah Sin Tang",
       "role": "Board Illustrator",
       "school": "School of General Studies '26",
@@ -100,16 +82,34 @@
       "photo": "/images/board/rahele-megosha.jpg"
     },
     {
-      "name": "Adam Vogt",
-      "role": "Editor-in-Chief Emeritus",
-      "school": "School of General Studies '24",
-      "photo": "/images/board/adam-vogt.jpg"
+      "name": "Lily Kuhn",
+      "role": "Former Editor-in-Chief",
+      "school": "Barnard College '25",
+      "photo": "/images/board/lily-kuhn.jpg"
+    },
+    {
+      "name": "Megan Amaro",
+      "role": "Board Illustrator",
+      "school": "School of General Studies '25",
+      "photo": "/images/board/default-pfp.png"
     },
     {
       "name": "Charla Teves",
       "role": "Board Editor",
       "school": "Barnard College '25",
       "photo": "/images/board/charla-teves.jpg"
+    },
+    {
+      "name": "Adam Vogt",
+      "role": "Former Editor-in-Chief",
+      "school": "School of General Studies '24",
+      "photo": "/images/board/adam-vogt.jpg"
+    },
+    {
+      "name": "Ana Reif",
+      "role": "Former Editor-in-Chief",
+      "school": "Columbia College '24",
+      "photo": "/images/board/ana-reif.jpg"
     }
   ],
   "advisor": {
