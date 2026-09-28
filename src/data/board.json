@@ -14,6 +14,18 @@
       "photo": "/images/board/charlotte-gravlee.jpg"
     },
     {
+      "name": "Yuki Ogawa",
+      "role": "Editor-In-Chief Emeritus",
+      "school": "Columbia College '27",
+      "photo": "/images/uploads/pasted-image-1790624904797.png"
+    },
+    {
+      "name": "Janaki Nair",
+      "role": "Editor-In-Chief Emeritus",
+      "school": "Columbia College '27",
+      "photo": "/images/uploads/pasted-image-1790624963931.png"
+    },
+    {
       "name": "Shane Nishimura",
       "role": "Board Editor",
       "school": "",
@@ -33,18 +45,6 @@
     }
   ],
   "alumni": [
-    {
-      "name": "Yuki Ogawa",
-      "role": "Former Editor-in-Chief",
-      "school": "Columbia College'27",
-      "photo": "/images/uploads/yuki-ogawa.jpg"
-    },
-    {
-      "name": "Janaki Nair",
-      "role": "Former Editor-in-Chief",
-      "school": "Columbia College'27",
-      "photo": "/images/uploads/janaki-nair.jpg"
-    },
     {
       "name": "Ana Reif",
       "role": "Former Editor-in-Chief",
