@@ -2,6 +2,18 @@
   "heading": "Meet the Sapient Team",
   "members": [
     {
+      "name": "Alix Draper",
+      "role": "Editor-In-Chief",
+      "school": "Columbia College '27",
+      "photo": "/images/board/alix-draper.jpg"
+    },
+    {
+      "name": "Charlotte Gravlee",
+      "role": "Editor-In-Chief",
+      "school": "Columbia College '28",
+      "photo": "/images/board/charlotte-gravlee.jpg"
+    },
+    {
       "name": "Priyanka Joshi",
       "role": "Board Editor",
       "school": "Columbia College '26",
@@ -20,12 +32,6 @@
       "photo": "/images/board/default-pfp.png"
     },
     {
-      "name": "Charlotte Gravlee",
-      "role": "Board Editor",
-      "school": "Columbia College '28",
-      "photo": "/images/board/charlotte-gravlee.jpg"
-    },
-    {
       "name": "Joanna Lin",
       "role": "Board Editor",
       "school": "Columbia College '26",
@@ -42,12 +48,6 @@
       "role": "Board Editor",
       "school": "Columbia College '26",
       "photo": "/images/board/emi-gacaj.jpg"
-    },
-    {
-      "name": "Alix Draper",
-      "role": "Board Editor",
-      "school": "Columbia College '27",
-      "photo": "/images/board/alix-draper.jpg"
     },
     {
       "name": "Ray Atlas",
