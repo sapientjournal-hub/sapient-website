@@ -14,28 +14,10 @@
       "photo": "/images/board/charlotte-gravlee.jpg"
     },
     {
-      "name": "Priyanka Joshi",
-      "role": "Board Editor",
-      "school": "Columbia College '26",
-      "photo": "/images/board/default-pfp.png"
-    },
-    {
       "name": "Shane Nishimura",
       "role": "Board Editor",
       "school": "",
       "photo": "/images/board/shane-nishimura.jpg"
-    },
-    {
-      "name": "Bronagh Doughty",
-      "role": "Board Editor",
-      "school": "Barnard College '26",
-      "photo": "/images/board/default-pfp.png"
-    },
-    {
-      "name": "Joanna Lin",
-      "role": "Board Editor",
-      "school": "Columbia College '26",
-      "photo": "/images/board/joanna-lin.jpg"
     },
     {
       "name": "Geena Kye",
@@ -48,18 +30,6 @@
       "role": "Board Editor",
       "school": "Columbia College '26",
       "photo": "/images/board/emi-gacaj.jpg"
-    },
-    {
-      "name": "Ray Atlas",
-      "role": "Board Illustrator",
-      "school": "Barnard College '26",
-      "photo": "/images/board/ray-atlas.jpg"
-    },
-    {
-      "name": "Ioana Stanoiu",
-      "role": "Board Editor",
-      "school": "",
-      "photo": "/images/board/default-pfp.png"
     }
   ],
   "alumni": [
@@ -98,6 +68,30 @@
       "role": "Board Illustrator",
       "school": "School of General Studies '26",
       "photo": "/images/board/default-pfp.png"
+    },
+    {
+      "name": "Ray Atlas",
+      "role": "Board Illustrator",
+      "school": "Barnard College '26",
+      "photo": "/images/uploads/pasted-image-1790624551728.png"
+    },
+    {
+      "name": "Joanna Lin",
+      "role": "Board Editor",
+      "school": "Columbia College '26",
+      "photo": "/images/uploads/pasted-image-1790624664095.png"
+    },
+    {
+      "name": "Bronagh Doughty",
+      "role": "Board Editor",
+      "school": "Barnard College '26",
+      "photo": "/images/uploads/pasted-image-1790624817746.png"
+    },
+    {
+      "name": "Priyanka Joshi",
+      "role": "Board Editor",
+      "school": "Columbia College '26",
+      "photo": "/images/uploads/pasted-image-1790624817746.png"
     },
     {
       "name": "Rahele Megosha",
