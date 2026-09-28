@@ -3,7 +3,7 @@
 
 backend:
   name: github
-  repo: yvnvii/sapient-website
+  repo: sapientjournal-hub/sapient-website
   branch: main
   base_url: https://sveltia-cms-auth.yo2368.workers.dev
 
