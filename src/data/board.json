@@ -2,18 +2,6 @@
   "heading": "Meet the Sapient Team",
   "members": [
     {
-      "name": "Janaki Nair",
-      "role": "Editor-in-Chief",
-      "school": "Columbia College '27",
-      "photo": "/images/board/janaki-nair.jpg"
-    },
-    {
-      "name": "Yuki Ogawa",
-      "role": "Editor-in-Chief",
-      "school": "Columbia College '27",
-      "photo": "/images/board/yuki-ogawa.jpg"
-    },
-    {
       "name": "Priyanka Joshi",
       "role": "Board Editor",
       "school": "Columbia College '26",
@@ -75,6 +63,18 @@
     }
   ],
   "alumni": [
+    {
+      "name": "Yuki Ogawa",
+      "role": "Former Editor-in-Chief",
+      "school": "Columbia College'27",
+      "photo": "/images/uploads/yuki-ogawa.jpg"
+    },
+    {
+      "name": "Janaki Nair",
+      "role": "Former Editor-in-Chief",
+      "school": "Columbia College'27",
+      "photo": "/images/uploads/janaki-nair.jpg"
+    },
     {
       "name": "Ana Reif",
       "role": "Former Editor-in-Chief",
