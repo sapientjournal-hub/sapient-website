@@ -10,6 +10,7 @@ export const site = {
   submitFormUrl:
     "https://docs.google.com/forms/d/e/1FAIpQLSd1DvQEFuo8cyYmTOOicaKOVZ-CmfXPOFJT9VetIDnUF8-_Sg/viewform?usp=header",
   flyerUrl: "/files/sapient-flyer.pdf",
+  flyerImage: "/images/flyer-preview.jpg",
   credit:
     "Website designed by Max Rose Zimberg and Ruby Mustill. Inspired by prior web design by Sheryl Crespo.",
 };

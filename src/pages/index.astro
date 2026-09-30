@@ -1,6 +1,8 @@
 ---
 import Base from "../layouts/Base.astro";
-import { site, topics, reasons, cycle } from "../data/site";
+import { site, topics, reasons, cycle, volumes } from "../data/site";
+
+const latest = volumes.find((v) => v.current) ?? volumes[0];
 ---
 
 <Base>
@@ -13,6 +15,9 @@ import { site, topics, reasons, cycle } from "../data/site";
         <h1 class="hero__title">
           The Undergraduate Journal<br />of Biological Anthropology
         </h1>
+        <p class="hero__cta">
+          <a class="btn" href={latest.file}>Read {latest.label}</a>
+        </p>
       </div>
       <div class="hero__logos">
         <img src="/images/columbia-logo.png" alt="Columbia University" />
@@ -106,32 +111,6 @@ import { site, topics, reasons, cycle } from "../data/site";
     </div>
   </section>
 
-  <!-- ================================================ SUBMIT STATUS ==== -->
-  <section class="band band--tight">
-    <div class="wrap centered stack-center">
-      <h2 class="section-title" style="margin-bottom:0; max-width:24ch;">
-        {cycle.statusLine}
-      </h2>
-      <a class="btn" href={site.submitFormUrl}>Click to Submit</a>
-    </div>
-  </section>
-
-  <!-- ========================================================= CARDS === -->
-  <section class="band band--tight">
-    <div class="wrap">
-      <div class="cardpair">
-        <a class="card" href="/editorial-board">
-          <img src="/images/meet-the-team.jpg" alt="" loading="lazy" />
-          <span>Meet the Board</span>
-        </a>
-        <a class="card" href={`mailto:${site.email}`}>
-          <img src="/images/letter-from-editor.jpg" alt="" loading="lazy" />
-          <span>Contact the Editor</span>
-        </a>
-      </div>
-    </div>
-  </section>
-
   <!-- ======================================================= WHY JOIN == -->
   <section class="band band--alt">
     <div class="wrap">
@@ -151,30 +130,41 @@ import { site, topics, reasons, cycle } from "../data/site";
 
   <!-- ==================================================== JOIN TEAM ==== -->
   <section class="band" id="join">
-    <div class="wrap centered">
-      <h2 class="section-title">Join the Sapient Team</h2>
-      <div class="prose">
-        <p>
-          No experience in biological anthropology necessary! All humans are
-          welcome.
-        </p>
-        <p>
-          Join our student group sponsored by the Ecology, Evolution, and
-          Environmental Biology Department (E3B) at Columbia University.
-        </p>
-        <p>
-          Seeking Board Editors, Illustrators, Hominin Hub contributors, and
-          more!
-        </p>
+    <div class="wrap join">
+      <a class="card join__board" href="/editorial-board">
+        <img src="/images/meet-the-team.jpg" alt="" loading="lazy" />
+        <span>Meet the Board</span>
+      </a>
+      <div class="join__copy centered">
+        <h2 class="section-title">Join the Sapient Team</h2>
+        <div class="prose">
+          <p>
+            No experience in biological anthropology necessary! All humans are
+            welcome.
+          </p>
+          <p>
+            Join our student group sponsored by the Ecology, Evolution, and
+            Environmental Biology Department (E3B) at Columbia University.
+          </p>
+          <p>
+            Seeking Board Editors, Illustrators, Hominin Hub contributors, and
+            more!
+          </p>
+        </div>
       </div>
+      <a class="card join__editor" href={`mailto:${site.email}`}>
+        <img src="/images/letter-from-editor.jpg" alt="" loading="lazy" />
+        <span>Contact the Editor</span>
+      </a>
     </div>
   </section>
 
   <!-- ======================================================= SUBMIT ==== -->
   <section class="band band--alt" id="submit">
-    <div class="wrap centered">
-      <h2 class="section-title">Submit to Sapient</h2>
-      <div class="prose">
+    <div class="wrap submit">
+      <div class="submit__copy">
+        <h2 class="section-title">Submit to Sapient</h2>
+        <p class="submit__status">{cycle.statusLine}</p>
         <p class="lead">{cycle.blurb}</p>
         <p><strong>Submission deadline: {cycle.deadline}</strong></p>
         <p>
@@ -182,10 +172,20 @@ import { site, topics, reasons, cycle } from "../data/site";
           <a href={site.submitFormUrl}>google form</a> — or via email at
           <a href={`mailto:${site.email}?subject=Submission`}>{site.email}</a>
         </p>
+        <p class="submit__cta">
+          <a class="btn" href={site.submitFormUrl}>Click to Submit</a>
+          <a class="btn" href={site.flyerUrl} download>Download Our Flyer Here</a>
+        </p>
       </div>
-      <p style="margin-top:2rem;">
-        <a class="btn" href={site.flyerUrl}>Download Our Flyer Here</a>
-      </p>
+      <a class="submit__flyer" href={site.flyerUrl} download>
+        <img
+          src={site.flyerImage}
+          alt="Sapient submissions flyer — click to download"
+          width="772"
+          height="1000"
+          loading="lazy"
+        />
+      </a>
     </div>
   </section>
 
