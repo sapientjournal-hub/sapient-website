@@ -49,6 +49,7 @@ collections:
               - { label: Submissions open?, name: open, widget: boolean, default: false }
               - { label: Blurb, name: blurb, widget: text }
               - { label: Deadline, name: deadline, widget: string }
+              - { label: Submission form link, name: formUrl, widget: string, hint: "Full URL of the Google Form. Used by the \"google form\" link and the Click to Submit button." }
           - label: Volumes
             name: volumes
             widget: list

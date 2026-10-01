@@ -7,8 +7,7 @@ export const site = {
     "Columbia University's undergraduate journal of biological anthropology. Founded in 2012 and run by Columbia students since.",
   url: "https://www.sapientjournal.com",
   email: "sapientjournal@gmail.com",
-  submitFormUrl:
-    "https://docs.google.com/forms/d/e/1FAIpQLSd1DvQEFuo8cyYmTOOicaKOVZ-CmfXPOFJT9VetIDnUF8-_Sg/viewform?usp=header",
+  submitFormUrl: journal.cycle.formUrl,
   flyerUrl: "/files/sapient-flyer.pdf",
   flyerImage: "/images/flyer-preview.jpg",
   credit:
